@@ -6,11 +6,12 @@ body{
   padding: 0;
   margin: 0;
   border: solid 1px blue;
+  overflow-x: hidden;
 }
 
-.hero{
+.pa{
   width: 100vw;
-  height: 40vh;
+  height: 100vh;
   display: flex;
   border: solid 1px green;
   position: absolute;
@@ -25,8 +26,10 @@ body{
   z-index: -1;
 }
 
-.hero-content h1 h5{
+.c1{
+  width: 50%;
   display: flex;
+<<<<<<< Updated upstream
   justify-content: center;
   align-items: center;
 }
@@ -71,4 +74,57 @@ h2,p{
 
 *{
     /* border: SOLID 1PX RED; */
+=======
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 120px;
+  box-sizing: border-box;
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.432);
+}
+.c2{
+  width: 50%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  padding: 100px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.432);
+
+
+}
+
+.btn{
+  padding: 0.6em;
+  font-size: medium;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;
+  border-radius: 6px;
+}
+
+.btn span{
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+
+.btn i{
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+
+
+.anc{
+  display: flex;
+  text-decoration: none;
+}
+
+h2, h1{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+>>>>>>> Stashed changes
 }
