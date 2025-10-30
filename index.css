@@ -30,3 +30,45 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+.secondppagepart{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 4em;
+    box-sizing: border-box;
+}
+
+.secondppagepart img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+
+h2,p{
+    padding: 0;
+    margin: 0;
+
+}
+
+.sidenote{
+    border: solid 2px white;
+    padding: 1em;
+    padding-right: 2em;
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    border-radius: 1em;
+    
+}
+
+*{
+    /* border: SOLID 1PX RED; */
+}
