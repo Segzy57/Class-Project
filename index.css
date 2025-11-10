@@ -122,10 +122,10 @@ p {
 
 .btn:hover{
   background-color: white;
-}
 
-.txtclr:hover{
-  color: black;
+  .txtclr {
+    color: black;
+  }
 }
 
 .anc {
