@@ -203,4 +203,13 @@ h1,h5{
     display: flex;
     gap: 1em;
     border-radius: 1em;
+    color: black;
+    
+    
+  
 }
+.textnote:hover {
+  background-color: white;
+  
+}
+
