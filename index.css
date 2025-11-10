@@ -41,6 +41,9 @@ a {
 }
 
 .secondppagepart {
+  background-image: url("asters-9870320.jpg");
+  background-position: center;
+  background-size: cover;
   position: relative;
   width: 100vw;
   height: 100vh;
