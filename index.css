@@ -121,6 +121,14 @@ p {
   /* font-size: 2em; */
 }
 
+.btn:hover{
+  background-color: white;
+}
+
+.txtclr:hover{
+  color: black;
+}
+
 .anc {
   display: flex;
   text-decoration: none;
