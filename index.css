@@ -225,3 +225,7 @@ h5 {
     gap: 1em;
     border-radius: 1em;
 }
+
+.textnote:hover {
+  background-color: white;
+}
