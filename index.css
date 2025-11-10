@@ -226,6 +226,14 @@ h5 {
     border-radius: 1em;
 }
 
+.textnote .button {
+  color: white;
+}
+
 .textnote:hover {
   background-color: white;
+
+  .button {
+    color: black;
+  }
 }
